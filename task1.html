@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>247259-lab 1</title>
 </head>
+
 <body>
+
     <header>
         Task 1
     </header>
+
     <br>
+
     <nav>
-        <ahref="#one">One</a>
-        <ahref="#two">Two</a>
-        <ahref="#three">Three</a>
+        <a href="#one">One</a>
+        <a href="#two">Two</a>
+        <a href="#three">Three</a>
     </nav>
-      <section id="one">
+
+    <section id="one">
         <h2>Who</h2>
 
         <!-- Lab 1 -->
@@ -24,7 +29,9 @@
             <img src="photo.jpg" alt="My photo" width="200">
             <figcaption>My photo</figcaption>
         </figure>
+
         <br>
+
         <ul>
             <li>First</li>
             <li>Second</li>
@@ -33,6 +40,144 @@
 
     <section id="two">
         <h2>Two</h2>
+
+        <h2>Form</h2>
+
+        <form>
+
+            <fieldset>
+                <legend>Your details</legend>
+
+                <!-- Task 2 -->
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Your name" required>
+
+                <br><br>
+
+                <label for="pw">Password</label>
+                <input type="password" id="pw" name="password">
+
+                <br><br>
+
+                <label for="em">Email</label>
+                <input type="email" id="em" name="email">
+
+                <br><br>
+
+                <!-- Task 3 -->
+
+                <input type="checkbox" name="agree" value="yes">
+                I agree
+
+                <br><br>
+
+                Campus
+
+                <br><br>
+
+                <input type="radio" name="campus" value="kharian">
+                Kharian
+
+                <br><br>
+
+                <input type="radio" name="campus" value="islamabad">
+                Islamabad
+
+                <br><br>
+
+                <!-- Task 4 -->
+
+                <label for="bio">Bio</label>
+
+                <br><br>
+
+                <textarea id="bio" name="bio" rows="3"></textarea>
+
+                <br><br>
+
+                <!-- Task 5 -->
+
+                <label for="day">Day</label>
+
+                <select id="day" name="day">
+                    <option value="mon">Monday</option>
+                    <option value="tue">Tuesday</option>
+                    <option value="wed">Wednesday</option>
+                </select>
+
+                <br><br>
+
+                <label for="city">City</label>
+
+                <input type="text" id="city" name="city" list="cities">
+
+                <datalist id="cities">
+                    <option value="Kharian">
+                    <option value="Gujrat">
+                </datalist>
+
+                <br><br>
+
+                <!-- Task 6 -->
+
+                <label for="dob">Date</label>
+                <input type="date" id="dob" name="dob">
+
+                <br><br>
+
+                <label for="n">Number</label>
+                <input type="number" id="n" name="seats"
+                       min="1" max="40">
+
+                <br><br>
+
+                <label for="col">Colour</label>
+                <input type="color" id="col" name="col"
+                       value="#1a2744">
+
+                <br><br>
+
+                <label for="vol">Range</label>
+                <input type="range" id="vol" name="vol"
+                       min="0" max="10">
+
+                <br><br>
+
+                <label for="cv">File</label>
+                <input type="file" id="cv" name="cv">
+
+                <br><br>
+
+                <button type="submit">Send</button>
+                <button type="reset">Clear</button>
+
+            </fieldset>
+
+        </form>
+
+        <br>
+
+        <!-- Task 6 Table -->
+
+        <table border="1">
+            <tr>
+                <th>File</th>
+                <th>Job</th>
+            </tr>
+
+            <tr>
+                <td>index.html</td>
+                <td>Structure</td>
+            </tr>
+
+            <tr>
+                <td>styles.css</td>
+                <td>Look</td>
+            </tr>
+        </table>
+
     </section>
 
     <section id="three">
@@ -42,54 +187,6 @@
     <footer id="contact">
         247259
     </footer>
-<h2>Form</h2>
 
-<form>
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Your name" required>
-
-    <br><br>
-
-    <label for="pw">Password</label>
-    <input type="password" id="pw" name="password">
-
-    <br><br>
-
-    <label for="em">Email</label>
-    <input type="email" id="em" name="email">
-</form>
-<br>
-<input type="checkbox" name="agree" value="yes"> I agree
-<br>
-<br>
-Campus
-<br>
-<br>
-<input type="radio" name="campus" value="kharian"> Kharian
-<br>
-<br>
-<input type="radio" name="campus" value="islamabad"> Islamabad
-<label for="bio">Bio</label>
-<br>
-<br>
-<textarea id="bio" name="bio" rows="3"></textarea>
-<br>
-<br>
-<label for="day">Day</label>
-<select id="day" name="day">
-    <option value="mon">Monday</option>
-    <option value="tue">Tuesday</option>
-    <option value="wed">Wednesday</option>
-</select>
-
-<br><br>
-
-<label for="city">City</label>
-<input type="text" id="city" name="city" list="cities">
-
-<datalist id="cities">
-    <option value="Kharian">
-    <option value="Gujrat">
-</datalist>
 </body>
 </html>
